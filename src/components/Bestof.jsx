@@ -1,6 +1,5 @@
 import React from "react";
 import bigdata from './../icon/big-data2.svg'
-import ai from './../icon/ai.svg'
 import dw from './../icon/browser.svg'
 import blockchain from './../icon/blockchain.svg'
 import database from './../icon/database.svg'

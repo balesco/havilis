@@ -49,38 +49,38 @@ function Formations() {
                             <div className="carousel-item shadow-none active" data-interval="60000">
                                 <div className="row">
                                     <div className="col-lg px-2">
-                                        <Formation img={ds} name="Créer un E-commerce qui CARTONNE en Dropshipping" teacher="Steve Bleriot" fee="12.99" />
+                                        <Formation img={ds} name="Créer un E-commerce qui CARTONNE en Dropshipping" note="4" teacher="Steve Bleriot" fee="12.99" />
                                     </div>
                                     <div className="col-lg px-2">
-                                        <Formation img={wd} name="Devenir Web Designer -formation compléte" teacher="Maxime Yamsi" fee="10" />
+                                        <Formation img={wd} name="Devenir Web Designer -formation compléte" note="4.5" teacher="Maxime Yamsi" fee="10" />
                                     </div>
                                     <div className="col-lg px-2">
-                                        <Formation img={cm} name="Community management & réseaux sociaux, les bonnes..." teacher="William Abdoulaye" fee="19.5" />
+                                        <Formation img={cm} name="Community management & réseaux sociaux, les bonnes..." note="2.5" teacher="William Abdoulaye" fee="19.5" />
                                     </div>
                                     <div className="col-lg px-2">
-                                        <Formation img={jv} name="Devenez un developpeur de jeux videos: Formation comp.." teacher="Willson D" fee="20" />
+                                        <Formation img={jv} name="Devenez un developpeur de jeux videos: Formation comp.." note="4" teacher="Willson D" fee="20" />
                                     </div>
                                     <div className="col-lg px-2">
-                                        <Formation img={dp} name="Developpement python: Formation-initiation" teacher="Harold Tamo" fee="10.99" />
+                                        <Formation img={dp} name="Developpement python: Formation-initiation" note="3.4" teacher="Harold Tamo" fee="10.99" />
                                     </div>
                                 </div>
                             </div>
                             <div className="carousel-item shadow-none" data-interval="60000">
                                 <div className="row">
                                     <div className="col-lg px-2">
-                                        <Formation img={java} name="Developpement orient objet : initialisation (JAVA)" teacher="Gabriel Tendong" fee="15.5" />
+                                        <Formation img={java} name="Developpement orient objet : initialisation (JAVA)" note="5" teacher="Gabriel Tendong" fee="15.5" />
                                     </div>
                                     <div className="col-lg px-2">
-                                        <Formation img={devA} name="Devenez developpeur mobile : Android & Kotlin" teacher="Diop Mouhammed" fee="24.99" />
+                                        <Formation img={devA} name="Devenez developpeur mobile : Android & Kotlin" note="5" teacher="Diop Mouhammed" fee="24.99" />
                                     </div>
                                     <div className="col-lg px-2">
-                                        <Formation img={ph} name="Formation à la photographie pour les débutants" teacher="David Bongo" fee="11" />
+                                        <Formation img={ph} name="Formation à la photographie pour les débutants" note="3" teacher="David Bongo" fee="11" />
                                     </div>
                                     <div className="col-lg px-2">
-                                        <Formation img={ao} name="Art oratoire: S'approprier l'art de parler en public" teacher="Brice Kamgang" fee="29.99" />
+                                        <Formation img={ao} name="Art oratoire: S'approprier l'art de parler en public" note="2.7" teacher="Brice Kamgang" fee="29.99" />
                                     </div>
                                     <div className="col-lg px-2">
-                                        <Formation img={tb} name="Excel: Créer votre tableau de bord interactif de A à Z" teacher="Patrick Mbenoun" fee="10.99" />
+                                        <Formation img={tb} name="Excel: Créer votre tableau de bord interactif de A à Z" note="4.5" teacher="Patrick Mbenoun" fee="10.99" />
                                     </div>
                                 </div>
                             </div>
@@ -101,34 +101,34 @@ function Formations() {
                     <div id="small-formations" class="carousel slide sm-slide" data-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item shadow-none active" data-interval="10000">
-                                <Formation img={ds} name="Créer un E-commerce qui CARTONNE en Dropshipping" teacher="Steve Bleriot" fee="12.99" />
+                                <Formation img={ds} name="Créer un E-commerce qui CARTONNE en Dropshipping" note="4" teacher="Steve Bleriot" fee="12.99" />
                             </div>
                             <div className="carousel-item shadow-none" data-interval="10000">
-                                <Formation img={wd} name="Devenir Web Designer -formation compléte" teacher="Maxime Yamsi" fee="10" />
+                                <Formation img={wd} name="Devenir Web Designer -formation compléte" note="4.5" teacher="Maxime Yamsi" fee="10" />
                             </div>
                             <div className="carousel-item shadow-none" data-interval="10000">
-                                <Formation img={cm} name="Community management & réseaux sociaux, les bonnes..." teacher="William Abdoulaye" fee="19.5" />
+                                <Formation img={cm} name="Community management & réseaux sociaux, les bonnes..." note="2.5" teacher="William Abdoulaye" fee="19.5" />
                             </div>
                             <div className="carousel-item shadow-none" data-interval="10000">
-                                <Formation img={jv} name="Devenez un developpeur de jeux videos: Formation comp.." teacher="Willson D" fee="20" />
+                                <Formation img={jv} name="Devenez un developpeur de jeux videos: Formation comp.." note="4" teacher="Willson D" fee="20" />
                             </div>
                             <div className="carousel-item shadow-none" data-interval="10000">
-                                <Formation img={dp} name="Developpement python: Formation-initiation" teacher="Harold Tamo" fee="10.99" />
+                                <Formation img={dp} name="Developpement python: Formation-initiation" note="3.4" teacher="Harold Tamo" fee="10.99" />
                             </div>
                             <div className="carousel-item shadow-none" data-interval="10000">
-                                <Formation img={java} name="Developpement orient objet : initialisation (JAVA)" teacher="Gabriel Tendong" fee="15.5" />
+                                <Formation img={java} name="Developpement orient objet : initialisation (JAVA)" note="5" teacher="Gabriel Tendong" fee="15.5" />
                             </div>
                             <div className="carousel-item shadow-none" data-interval="10000">
-                                <Formation img={devA} name="Devenez developpeur mobile : Android & Kotlin" teacher="Diop Mouhammed" fee="24.99" />
+                                <Formation img={devA} name="Devenez developpeur mobile : Android & Kotlin" note="5" teacher="Diop Mouhammed" fee="24.99" />
                             </div>
                             <div className="carousel-item shadow-none" data-interval="10000">
-                                <Formation img={ph} name="Formation à la photographie pour les débutants" teacher="David Bongo" fee="11" />
+                                <Formation img={ph} name="Formation à la photographie pour les débutants" note="3" teacher="David Bongo" fee="11" />
                             </div>
                             <div className="carousel-item shadow-none" data-interval="10000">
-                                <Formation img={ao} name="Art oratoire: S'approprier l'art de parler en public" teacher="Brice Kamgang" fee="29.99" />
+                                <Formation img={ao} name="Art oratoire: S'approprier l'art de parler en public" note=".7" teacher="Brice Kamgang" fee="29.99" />
                             </div>
                             <div className="carousel-item shadow-none" data-interval="10000">
-                                <Formation img={tb} name="Excel: Créer votre tableau de bord interactif de A à Z" teacher="Patrick Mbenoun" fee="10.99" />
+                                <Formation img={tb} name="Excel: Créer votre tableau de bord interactif de A à Z" note="4.5" teacher="Patrick Mbenoun" fee="10.99" />
                             </div>
                             <a className="carousel-control-prev text-dark pb-5" href="#small-formations" role="button" data-slide="prev">
                                 <div className="border rounded-circle mr-2 mb-5 px-3 py-2 bg-light">
