@@ -1,16 +1,16 @@
 import React from "react";
-import bigdata from './../icon/big-data2.svg'
-import ai from './../icon/ai.svg'
-import brain from './../icon/brain.svg'
-import blockchain from './../icon/blockchain.svg'
-import conding from './../icon/drone.svg'
-import database from './../icon/database.svg'
-import download from './../icon/download.svg'
-import tv from './../icon/tv.svg'
-import project from './../icon/project-management.svg'
-import photography from './../icon/photography.svg'
-import market from './../icon/market.svg'
-import malware from './../icon/malware.svg'
+import bigdata from './../icon/big-data.png'
+import ai from './../icon/brain.png'
+import brain from './../icon/brain.png'
+import blockchain from './../icon/blockchain.png'
+import conding from './../icon/drone.png'
+import database from './../icon/database.png'
+import download from './../icon/download.png'
+import tv from './../icon/tv.png'
+import project from './../icon/conference.png'
+import photography from './../icon/photography.png'
+import market from './../icon/dollar.png'
+import malware from './../icon/malware.png'
 
 function Categories() {
     return (

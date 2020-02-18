@@ -1,16 +1,16 @@
 import React from "react";
-import bigdata from './../icon/big-data2.svg'
-import dw from './../icon/browser.svg'
-import blockchain from './../icon/blockchain.svg'
-import database from './../icon/database.svg'
-import download from './../icon/download.svg'
-import tv from './../icon/tv.svg'
-import malware from './../icon/malware.svg'
-import photo from './../icon/photography.svg'
-import ent from './../icon/owner.svg'
-import sm from './../icon/crm.svg'
-import bI from './../icon/idea.svg'
-import dm from './../icon/app.svg'
+import bigdata from './../icon/big-data.png'
+import dw from './../icon/browser.png'
+import blockchain from './../icon/blockchain.png'
+import database from './../icon/database.png'
+import download from './../icon/download.png'
+import tv from './../icon/tv.png'
+import malware from './../icon/malware.png'
+import photo from './../icon/photography.png'
+import ent from './../icon/owner.png'
+import sm from './../icon/crm.png'
+import bI from './../icon/idea.png'
+import dm from './../icon/app.png'
 
 function Bestof() {
 
