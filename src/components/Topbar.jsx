@@ -14,26 +14,28 @@ function Topbar() {
                     </li>
                     <li className="nav-item d-flex justify-content-center">
                         <span><i class="fas fa-th align-self-center cat-icon"></i></span>
-                        <h5 className="align-middle align-self-center cat-text">Catégories</h5>
+                        <h5 className="align-middle align-self-center cat-text">
+                            <a href="" className="text-body" data-toggle="modal" data-target="#exampleModalCenter">Catégories</a>
+                        </h5>
                     </li>
                     <li className="nav-item mx-sm-5 mt-2">
                         <div class="input-group mb-3 mt-2">
                             <input type="text" class="form-control bg-light border-right-0 search-text" placeholder="Rechercher" />
                             <div class="input-group-append">
-                                <button class="btn btn-light border boder-left-0 text-primary" type="submit"><i class="fas fa-search"></i></button>
+                                <button class="btn btn-light border boder-left-0 text-primary" type="submit" data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-search"></i></button>
                             </div>
                         </div>
                     </li>
                     <li className="nav-item cat-text d-flex mr-2">
-                        <a className="text-secondary mr-3" href="#"> Adaa for Business</a>
+                        <a className="text-secondary mr-3" href="#" data-toggle="modal" data-target="#exampleModalCenter"> Adaa for Business</a>
 
-                        <a className="text-secondary" href="#"> Enseigner sur Adaa</a>
+                        <a className="text-secondary" href="#" data-toggle="modal" data-target="#exampleModalCenter"> Enseigner sur Adaa</a>
                     </li>
                     <li className="nav-item mt-2 align-middle">
                         <div className="float-right mr-2">
                             <span className=" mt-3"><img src={shopping} className="shop-icon mr-3" alt="..." /></span>
-                            <a className="btn border text-dark mr-1 btn-text" href="#">Se connecter</a>
-                            <a className="btn btn-primary text-light btn-text">S'inscrire</a>
+                            <a className="btn border text-dark mr-1 btn-text" href="#" data-toggle="modal" data-target="#exampleModalCenter">Se connecter</a>
+                            <a className="btn btn-primary text-light btn-text" data-toggle="modal" data-target="#exampleModalCenter">S'inscrire</a>
                         </div>
                     </li>
                 </ul>

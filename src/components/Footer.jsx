@@ -8,11 +8,11 @@ function Footer() {
                 <div className="col-12 my-1">
                     <div className="col-12 my-1 ">
                         <div className="justify-content-start d-flex flex-column small">
-                            <a className="float-right text-body" href="#">Adaa for business</a>
-                            <a className="float-right text-body" href="#">Enseigner sur Adaa</a>
-                            <a className="float-right text-body" href="#">Application Adaa</a>
-                            <a className="float-right text-body" href="#">À propos de Adaa</a>
-                            <a className="float-right text-body" href="#">Contacter Adaa</a>
+                            <a className="float-right text-body" href="#" data-toggle="modal" data-target="#exampleModalCenter">Adaa for business</a>
+                            <a className="float-right text-body" href="#" data-toggle="modal" data-target="#exampleModalCenter">Enseigner sur Adaa</a>
+                            <a className="float-right text-body" href="#" data-toggle="modal" data-target="#exampleModalCenter">Application Adaa</a>
+                            <a className="float-right text-body" href="#" data-toggle="modal" data-target="#exampleModalCenter">À propos de Adaa</a>
+                            <a className="float-right text-body" href="#" data-toggle="modal" data-target="#exampleModalCenter">Contacter Adaa</a>
                         </div>
                     </div>
                 </div>
@@ -21,10 +21,10 @@ function Footer() {
                 <div className="col-12 my-1 ">
                     <div className="col-12 my-1 ">
                         <div className="justify-content-start d-flex flex-column small">
-                            <a className="float-right text-body" href="#"> Carrières</a>
-                            <a className="float-right text-body" href="#"> Blog</a>
-                            <a className="float-right text-body" href="#"> Aide et support</a>
-                            <a className="float-right text-body" href="#"> Affilié </a>
+                            <a className="float-right text-body" href="#" data-toggle="modal" data-target="#exampleModalCenter"> Carrières</a>
+                            <a className="float-right text-body" href="#" data-toggle="modal" data-target="#exampleModalCenter"> Blog</a>
+                            <a className="float-right text-body" href="#" data-toggle="modal" data-target="#exampleModalCenter"> Aide et support</a>
+                            <a className="float-right text-body" href="#" data-toggle="modal" data-target="#exampleModalCenter"> Affilié </a>
                         </div>
                     </div>
                 </div>
@@ -33,8 +33,8 @@ function Footer() {
                 <div className="col-12 my-1 ">
                     <div className="col-12 my-1 ">
                         <div className="d-flex flex-column justify-content-start small">
-                            <a className="float-right text-body " href="#"> Plan du site</a>
-                            <a className="float-right text-body " href="#"> Cours à l'affiche</a>
+                            <a className="float-right text-body " href="#" data-toggle="modal" data-target="#exampleModalCenter"> Plan du site</a>
+                            <a className="float-right text-body " href="#" data-toggle="modal" data-target="#exampleModalCenter"> Cours à l'affiche</a>
                         </div>
                     </div>
                 </div>

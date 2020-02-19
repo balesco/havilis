@@ -31,7 +31,7 @@ function Categories() {
                             <h4>Besoin d'assistance pour choisir vos formations ?</h4>
                             <p className="small"> Bénéficiez de l'assistance gratuite de nos Experts conseillers en repondant à quelques questions.</p>
                         </p>
-                        <button className="btn btn-primary">Démarrez</button>
+                        <button className="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Démarrez</button>
                     </div>
                     <div className="col-lg-2 col-md-2 col-2 my-3 mx-1 text-center"><img alt="....." src={download} class="icon-c" /></div>
                 </div>

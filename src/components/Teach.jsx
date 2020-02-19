@@ -12,7 +12,7 @@ function Teach() {
                         <p className=" w-75 w-lg-75 py-2 ml-3 d-flex flex-column">
                             <b className="business-text"> Devenir formateur sur Adaa</b>
                             Nous regroupons sur cette plateforme, les meilleurs Experts de diverses specialtés. Nous vous offrons l'opportunitée, l'environnement technologique les outils nécessaires pour partager votre expertise avec le monde. Vous avez une expertise, rejoignez nous.
-                        <button className="btn btn-primary mt-3 font-weight-bold w-75">Devenez formateur</button>
+                        <button className="btn btn-primary mt-3 font-weight-bold w-75" data-toggle="modal" data-target="#exampleModalCenter">Devenez formateur</button>
                         </p>
                     </div>
                 </div >

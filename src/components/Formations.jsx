@@ -20,28 +20,28 @@ function Formations() {
                 <div className="col-lg-12 col-md col-sm">
                     <ul class="nav mb-2 mx-2 border border-top-0 border-left-0 border-right-0">
                         <li class="nav-item">
-                            <a class="nav-link text-body font-weight-bold active" href="#">Tous</a>
+                            <a class="nav-link text-body font-weight-bold active" href="#" data-toggle="modal" data-target="#exampleModalCenter">Tous</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black-50 font-weight-bold" href="#">Developpement Web</a>
+                            <a class="nav-link text-black-50 font-weight-bold" href="#" data-toggle="modal" data-target="#exampleModalCenter">Developpement Web</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black-50 font-weight-bold" href="#">Social Media Management</a>
+                            <a class="nav-link text-black-50 font-weight-bold" href="#" data-toggle="modal" data-target="#exampleModalCenter">Social Media Management</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black-50 font-weight-bold" href="#">Photographie</a>
+                            <a class="nav-link text-black-50 font-weight-bold" href="#" data-toggle="modal" data-target="#exampleModalCenter">Photographie</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black-50 font-weight-bold" href="#">Developpement Mobile</a>
+                            <a class="nav-link text-black-50 font-weight-bold" href="#" data-toggle="modal" data-target="#exampleModalCenter">Developpement Mobile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black-50 font-weight-bold" href="#">Design et graphisme</a>
+                            <a class="nav-link text-black-50 font-weight-bold" href="#" data-toggle="modal" data-target="#exampleModalCenter">Design et graphisme</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black-50 font-weight-bold" href="#">Trading</a>
+                            <a class="nav-link text-black-50 font-weight-bold" href="#" data-toggle="modal" data-target="#exampleModalCenter">Trading</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black-50 font-weight-bold" href="#">CyberSécurité</a>
+                            <a class="nav-link text-black-50 font-weight-bold" href="#" data-toggle="modal" data-target="#exampleModalCenter">CyberSécurité</a>
                         </li>
                     </ul>
                     <div id="carouselExampleInterval6" className="mx-2 carousel slide lg-slide" data-ride="carousel">

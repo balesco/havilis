@@ -10,6 +10,7 @@ import Bestof from './components/Bestof';
 import Medias from './components/Medias';
 import Footer from './components/Footer';
 import Topbar from './components/Topbar';
+import Modal from './components/Modal';
 import light from './icon/light2.png'
 import percent from './icon/percent2.png'
 import teacher from './icon/teacher2.png'
@@ -38,7 +39,7 @@ function App() {
           <div className="input-group search-bar">
             <input type="text" className="form-control" placeholder="Que souhaitez-vous apprendre ?" />
             <div className="input-group-append">
-              <button className="btn btn-light text-primary" type="submit"><i class="fas fa-search"></i></button>
+              <button className="btn btn-light text-primary" type="submit" data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-search"></i></button>
             </div>
           </div>
           <div className="row bg-primary header-footer h-25">
@@ -99,6 +100,7 @@ function App() {
         <Footer />
         <Copyright />
       </div>
+      <Modal />
     </div>
   );
 }

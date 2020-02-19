@@ -11,7 +11,7 @@ function Business() {
                         <p className="w-75 ml-5 d-flex flex-column text-light">
                             <b className="business-text "> Adaa for Business</b>
                             <p>Reduisez vos coûts de formation et gagnez en flexibilité, en offrant au membre de votre équipe un accès illimité à plus de 2 000 cours parmi les meilleures d'Adaa.</p>
-                            <button className="btn btn-primary mt-3 font-weight-bold w-75">Contactez Adaa</button>
+                            <button className="btn btn-primary mt-3 font-weight-bold w-75" data-toggle="modal" data-target="#exampleModalCenter">Contactez Adaa</button>
                         </p>
                     </div>
                     <div className="col-lg ">
