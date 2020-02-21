@@ -1,7 +1,7 @@
 import React from "react";
 import bigdata from './../icon/sabc.png';
 import brain from './../icon/GT.png';
-import blockchain from './../icon/bgfi.jpg';
+import blockchain from './../icon/bgfi.png';
 import database from './../icon/olam.png';
 import project from './../icon/axa.png';
 
