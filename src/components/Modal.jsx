@@ -8,7 +8,7 @@ function Modal() {
                     <div class="modal-header">
                         <h5 className="small" class="modal-title" id="exampleModalCenterTitle">
                             <p className="text-center small text-secondary">
-                                Votre plateform est en cours de développement!
+                                Votre plateforme est en cours de développement!
                             </p>
                         </h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -17,7 +17,7 @@ function Modal() {
                     </div>
                     <div class="modal-body">
                         <p className="font-weight-bold text-center">
-                            Merci de nous laisser votre adresse mail, afin d'être notifier lors de la mise en ligne complète.
+                            Merci de nous laisser votre adresse mail, afin d'être informé lors du lancement en Juin 2020.
                         </p>
                         <form action="">
                             <div className="form-group">
