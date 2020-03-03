@@ -4,74 +4,25 @@ import shopping from './../icon/shopping.svg'
 function Topbar() {
 
     return (
-        <div className="">
-            <nav className="navbar d-flex flex-row-reverse lg-menu navbar-expand-sm bg-white navbar-light">
-                <ul className="navbar-nav container-fluid">
-                    <li className="nav-item active App-logo justify-content-start">
-                        <span className="">
-                            <img className="float-left rounded logo" src={logo} alt="..." height="60px"></img>
-                        </span>
-                    </li>
-                    <li className="nav-item d-flex justify-content-center">
-                        <span><i class="fas fa-th align-self-center cat-icon"></i></span>
-                        <h5 className="align-middle align-self-center cat-text">
-                            <a href="" className="text-body" data-toggle="modal" data-target="#exampleModalCenter">Catégories</a>
-                        </h5>
-                    </li>
-                    <li className="nav-item mx-sm-5 mt-2">
-                        <div class="input-group mb-3 mt-2">
-                            <input type="text" class="form-control bg-light border-right-0 search-text" placeholder="Rechercher" />
-                            <div class="input-group-append">
-                                <button class="btn btn-light border boder-left-0 text-primary" type="submit" data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-search"></i></button>
-                            </div>
-                        </div>
-                    </li>
-                    <li className="nav-item cat-text d-flex mr-2">
-                        <a className="text-secondary mr-3" href="#" data-toggle="modal" data-target="#exampleModalCenter"> Adaa for Business</a>
-
-                        <a className="text-secondary" href="#" data-toggle="modal" data-target="#exampleModalCenter"> Enseigner sur Adaa</a>
-                    </li>
-                    <li className="nav-item mt-2 align-middle">
-                        <div className="float-right mr-2">
-                            <span className=" mt-3"><img src={shopping} className="shop-icon mr-3" alt="..." /></span>
-                            <a className="btn border text-dark mr-1 btn-text" href="#" data-toggle="modal" data-target="#exampleModalCenter">Se connecter</a>
-                            <a className="btn btn-primary text-light btn-text" data-toggle="modal" data-target="#exampleModalCenter">S'inscrire</a>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-            <nav class=" container navbar navbar-expand-lg navbar-light small-menu">
-                <a class="navbar-brand" href="#"><img className="rounded" src={logo} alt="..." height="60px"></img></a>
-                <button class="navbar-toggler float-right m-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div className="Topbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-secondary text-light">
+                <a class="navbar-brand text-light" href="#">Havilis</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link border border-top-0 border-left-0 border-right-0 mx-3" href="#">Acceuil<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border border-top-0 border-left-0 border-right-0 mx-3" href="#">Catégories</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border border-top-0 border-left-0 border-right-0 mx-3" href="#">Adaa for Business</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border border-top-0 border-left-0 border-right-0 mx-3" href="#">Devenez formateur</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border border-top-0 border-left-0 border-right-0 mx-3" href="#">Se connecter</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border border-top-0 border-left-0 border-right-0 mx-3" href="#">S'inscrire</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border border-top-0 border-left-0 border-right-0 mx-3" href="#">Contacter Adaa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border border-top-0 border-left-0 border-right-0 mx-3" href="#">Aide et Support</a>
-                        </li>
-                    </ul>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex">
+                        <a class="nav-item nav-link active text-light" href="#">Vols <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link text-light" href="#">Hôtels</a>
+                        <a class="nav-item nav-link text-light" href="#">Vol+Hôtel</a>
+                        <a class="nav-item nav-link text-light" href="#">Location de voitures</a>
+                        <a class="nav-item nav-link text-light" href="#">Navettes et transferts</a>
+                        <a class="nav-item nav-link text-light" href="#">Decouvertes et Experiences</a>
+                    </div>
+                    <a class="btn btn-light text-body border rounded ml-auto" href="#">Connexion</a>
+                    <a className="btn text-light mr-1 btn-text ml-3" href="#" data-toggle="modal" data-target="#exampleModalCenter">Mon compte | Mes voyages</a>
+                    <a className="btn btn-primary text-light btn-text float-rigth" data-toggle="modal" data-target="#exampleModalCenter">S'inscrire</a>
+                    <a className="ml-1" data-toggle="modal" data-target="#exampleModalCenter">Aide</a>
                 </div>
             </nav>
         </div>

@@ -1,189 +1,27 @@
-
-
-.App-logo {
-  width: 100px;
-  background-color: white;
-  margin-right: 45px;
+.multi-item-carousel .carousel-inner > .item {
+  transition: 500ms ease-in-out left;
 }
-.logo{
-  height: 45px;
+.multi-item-carousel .carousel-inner .active.left {
+  left: -33%;
 }
-.cat-icon{
-  margin-top: 15px;
-  font-size: 15px;
-  margin-right: 5px;
+.multi-item-carousel .carousel-inner .active.right {
+  left: 33%;
 }
-.cat-text{
-  margin-top: 12px;
-  font-size: 13px;
+.multi-item-carousel .carousel-inner .next {
+  left: 33%;
 }
-.shop-icon{
-  height: 25px;
-  width: 25px;
+.multi-item-carousel .carousel-inner .prev {
+  left: -33%;
 }
-.search-bar{
-  margin-left: 35px;
-  width: 380px;
-}
-.search-text{
-  font-size: 15px;
-  width: 350px;
-}
-.sm-slide{
-  display: none;
-}
-.btn-text{
-  font-size: 14px;
-  font-weight: 600;
-}
-.small-menu{
-  display: none;
-}
-.btn-primary{
- background-color: rgb(11, 11, 180);
-}
-/* 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-.App-header {
-  background-color: rgba(8, 8, 247, 0.247);
-  background-repeat: no-repeat;
-  background-image: url('./header.jpg');
-  background-size: cover;
-  color: white;
-}
-.text-header{
-    width: 30%;
-    margin-left: 2em;
-    font-size: 20px;
-  }
-.header-footer{
-  margin-top: 10%;
-}
-.herder-color{
-  padding-top: 5%;
-  background-color: rgba(26, 38, 194, 0.205);
-  background-size: 100% inherit;
-}
-
-.slide-courses{
- background-color: white
-}
-.icon-c{
-  height: 50px;
-  width: 50px;
-}
-
-.icon-b{
-  height: 35px;
-  width: 35px;
-}
-
-.icon-clients{
-  width: 80px;
-}
-.icon-header{
-  height: 70px;
-}
-.icon-info{
-  font-size: 35px;
-}
-.info-text{
-  font-size: 17px;
-}
-.adaa-techaer{
-  position: absolute;
-  z-index: 10;
-  margin-left: 17%;
-}
-.adaa-business{
-  position: absolute;
-  z-index: 10;
-  margin-left: 55%;
-}
-.business-text{
-  font-size: 30px;
-  font-weight: 700;
-}
-.sm-business{
-  display: none;
-}
-.client-text{
-  font-size: 25px;
-  font-weight: 600;
-}
-.slide-next-btn{
-  z-index: 1;
-}
-.bg-categories{
-  background-color: rgb(175, 170, 170);
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .multi-item-carousel .carousel-inner > .item {
+    transition: 500ms ease-in-out left;
+    transition: 500ms ease-in-out all;
+    backface-visibility: visible;
+    transform: none !important;
   }
 }
-
-@media (max-width : 780px){
-  .App {
-    font-size: 15px;
-  }
-  .App-header {
-    font-size: 15px
-  }
-  .sm-slide{
-    display: initial;
-  }
-  .lg-slide{
-    display: none;
-  }
-  .lg-menu{
-    display: none !important;
-  }
-  .small-menu{
-    display: initial;
-  }
-  .next{
-    width: 80px;
-    margin: 10px;
-  }
-  .slide-next-btn{
-    margin-bottom: 10px;
-  }
-  .search-bar{
-    display: none;
-  }
-  .text-header{
-    width: 100%;
-    margin: 2px;
-    font-size: 15px;
-  }
-  .icon-c{
-  height: 30px;
-  width: 30px;
-  }
-  .adaa-techaer{
-    display: none;
-  }
-  .adaa-business{
-    display: none;
-  }
-  .lg-business{
-    display: none;
-  }
-  .sm-business{
-    display: initial;
-  }
+.multi-item-carousel .carouse-control.left,
+.multi-item-carousel .carouse-control.right {
+  background-image: none;
 }
